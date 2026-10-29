@@ -1,0 +1,16 @@
+/config/config.php
+/storage/logs/*
+/storage/uploads/*
+!/storage/logs/.gitkeep
+!/storage/uploads/.gitkeep
+/vendor/
+/.env
+/.env.*
+!/.env.example
+*.pem
+*.key
+*.log
+/storage/database/
+/storage/runtime/
+/tests/artifacts/
+/WIKI-ecommerce.zip

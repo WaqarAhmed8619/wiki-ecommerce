@@ -1,0 +1,1 @@
+<dl class="totals"><dt>Subtotal</dt><dd><?=money($totals['subtotal'])?></dd><dt>Discount</dt><dd>− <?=money($totals['discount'])?></dd><dt>Delivery</dt><dd><?=$totals['shipping']?money($totals['shipping']):'Complimentary'?></dd><dt>Tax</dt><dd><?=money($totals['tax'])?></dd><dt class="total">Total</dt><dd class="total"><?=money($totals['total'])?></dd></dl>
